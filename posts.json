@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1730371302233",
+    "email": "test@example.com",
+    "password": "password",
+    "createdAt": "2024-10-31T10:41:42.234Z",
+    "updatedAt": "2024-10-31T10:41:42.234Z"
+  },
+  {
+    "id": "1730371840320",
+    "title": "test@example.com",
+    "content": "password",
+    "status": "published",
+    "createdAt": "2024-10-31T10:50:40.320Z",
+    "updatedAt": "2024-10-31T10:50:40.320Z"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "name": "junior-developer-assessment---blog-dashboard",
+  "version": "1.0.0",
+  "description": "Junior-Developer-Assessment---Blog-Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "pius ssekweyama",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
