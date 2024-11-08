@@ -11,6 +11,11 @@ const DATA_FILE = 'posts.json'; // File to store posts
 
 // Middleware
 app.use(cors());
+// Or specify allowed origins
+app.use(cors({
+  origin: '*',
+}));
+
 app.use(express.json());
 
 // Ensure the data file exists
