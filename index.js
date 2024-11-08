@@ -10,11 +10,16 @@ const app = express();
 const DATA_FILE = 'posts.json'; // File to store posts
 
 // Middleware
-app.use(cors());
-// Or specify allowed origins
 app.use(cors({
   origin: '*',
 }));
+
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS, PATCH');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  next();
+})
 
 app.use(express.json());
 
